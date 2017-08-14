@@ -1,0 +1,122 @@
+<html>
+    <head> 
+        <title>REGISTER</title>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <style>
+            #wrapper{
+                background: #EDF4E3;
+                width: 600px;
+                margin: 0 auto;
+            }
+            body{
+                font-family: Times New Roman;
+            }
+            #header_div{
+                background: #404040;
+                width: 600px;
+                height: 25px;
+                text-align: right;
+                margin-bottom: 30px;
+            }
+            #header{
+                padding-right: 10px;
+                color: white;
+                font-variant: small-caps;
+            }
+            #header2{
+                padding-right: 20px;
+                color: white;
+                font-variant: small-caps;
+            }
+            #main, tr, td {
+            border: 1px solid #C7CAD3;
+            border-collapse: collapse;
+            padding: 10px;
+            margin: 0 auto;
+            }
+            .category {
+                color: white;
+                background-color: #404040;
+                text-align: right;
+            }
+            #url {
+                margin-top: 20px;
+                margin-left: 160px;
+            }
+            p {
+                margin-left: 25px;
+                padding-bottom: 15px;
+            }
+            input[type=submit] {
+                padding: 10px; 
+                background: #DFF276; 
+                border: 1px solid #C7CAD3;
+                cursor:pointer;
+                border-radius: 10px;
+                font-family: Georgia;
+                font-weight: bold;
+                margin-left: 70px;
+            }
+            input[type=reset] {
+                padding: 10px; 
+                background: #e87951; 
+                border: 1px solid #C7CAD3;
+                cursor:pointer;
+                border-radius: 10px;
+                font-family: Georgia;
+                font-weight: bold;
+                margin-left: 2px;
+            }
+            #home{
+                margin-left: 10px;
+                padding-bottom: 5px;
+            }
+        </style>
+    </head>
+    <body>
+    <div id=wrapper>
+        <div id=header_div>
+            <label id="header">Cloud Group</label>
+            <label id="header2">Register</label>
+        </div>    
+    <form action="add.php" method="POST">
+        <table id = main>
+            <tr>
+                <td class="category"><label for="Name2">Name :</label></td>
+                <td><input type="text" name="Name" id="Name2" size="21" maxlength="30" minlength="2"></td>
+            </tr>
+            <tr>
+                <td class="category"><label for="Add">Address :</label></td>
+                <td><input type="text" name="Address_in_Cebu" id="Add" size="21" maxlength="70" minlength="5"></td>
+            </tr>
+            <tr>
+                <td class="category"><label for="Bday">Date of Birth :</label></td>
+                <td><input type="date" name="Birthday" value="1985-01-01" id="Bday" size="21"></td>
+            </tr>
+            <tr>
+                <td class="category"><label for="Email">Email :</label></td>
+                <td><input type="email" name="Email_Address" id="Email" size="21" maxlength="30" minlength="5"></td>
+            </tr>
+            <tr>
+                <td class="category"><label for="Number">Phone :</label></td>
+                <td>
+                    <input type="text" name="Mobile_Number" id="Number" size="21" maxlength="13" minlength="5">
+                </td>
+            </tr>    
+        </table>
+        <table id = url>
+            <tr>
+                <th><input type="submit" value="SUBMIT"></th>
+                <th><input type="reset" value="RESET"></th>
+            </tr>
+        </table>
+        <a href='main.php' >
+            <img src="images/home.png" width="40" id="home" alt="HOME icon">
+        </a>
+     </div>       
+    </form>
+    </body>
+</html>
+
+

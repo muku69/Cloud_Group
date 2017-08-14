@@ -1,0 +1,152 @@
+table,th,td{
+    width: 762px;
+    }
+div {
+    margin: 10px;
+}   
+#wrapper {
+    background-color: #edf4e3;
+    width: 782px;
+    margin: 0 auto;
+}
+#life{
+    clear: both;
+}
+h3{
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: purple
+}
+ul,ol{
+    margin: 5px;
+}
+.class{
+    text-decoration: underline;
+}
+#header_div{
+    background: #404040;
+    height: 25px;
+    text-align: right;
+    margin: 0;
+}
+#header{
+    padding-right: 10px;
+    color: white;
+    font-variant: small-caps;
+}
+#header2{
+    padding-right: 20px;
+    color: white;
+    font-variant: small-caps;
+}
+body{
+    background-color: #ffffff;
+    font-family: Times New Roman;
+    margin: 20px;
+}
+#backphoto {
+    float: left;
+}
+#picture {
+    width: 250px;
+    float: left;
+    margin: 0 auto;
+}
+#profile {
+    background-color: #404040;
+    width: 470px;
+    height: 237px;
+    float: left;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top: 13px;
+}
+.ppp{
+    border-radius: 50%;
+}
+h1{
+    color: white;
+    background-color: #DCDCDC;
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    font-variant: small-caps
+}
+p{
+    color: #EFF0F0;
+    padding: 0 10px;
+    margin: 0 auto;
+    text-align: justify;
+}
+.basicinfo{
+    color: #EDF4E3;
+    text-decoration: underline;
+}
+#wall {
+    clear: both;
+    padding-top: 0.5px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+}
+#about{
+    background: #EDF4E3;
+    margin: 0 auto;
+    padding: 20px;
+}
+#me{
+    color: #404040;
+}
+#goal{
+    background: #404040;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 15px;
+    padding: 20px;
+    width: 682px;
+    float: right;
+}
+#header_goal{
+    color: #EDF4E3;
+}
+#favorite{
+    float: left;
+}
+#favorite_table{
+    width: 660px;
+    margin-left: 50px;
+}
+.favorite_value{
+    background: #f2fbeb;
+}
+.favorite_td{
+    background: #e0e2c4;
+}
+strong{
+    color: purple;
+}
+.other{
+    border: #DCDCDC 2px solid;
+    text-align: left;
+    border-collapse: collapse;
+}
+.category{
+    background-color: #dff276;
+}
+#footer{
+    background: #DCDCDC;
+    height: 44px;
+    width: 782px;
+    margin: 0;
+    border-top: #EDF4E3 20px double;
+    border-bottom: #404040 2px solid;
+    clear: both;
+}
+.dummy{
+    border-radius: 50%;
+}
+#house{
+    float: left;
+}
+li{
+    width: 300px;
+}
