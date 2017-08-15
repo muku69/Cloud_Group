@@ -326,7 +326,7 @@
                     <td class="category">Category</td>
                     <td class="category">School Name</td>
                     <td class="category">Address</td>
-                    <td class="category">Graduation</td>
+                    <td class="category">Year Graduated</td>
                 </tr>
                 <tr>
                     <td class="table_value">High School :</td>

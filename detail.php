@@ -96,21 +96,21 @@
         <div id=backphoto>
             <?php   
                 if($background == ""){
-                    echo "<img class=dummy src='images/1.jpg' width='250' height='250' alt='Photo'>";
+                    echo "<img class=dummy src='images/graph.png' width='250' height='250' alt='Photo'>";
                 }
                 else {
                     echo "<img class=ppp src='$background' width='250' height='250' alt='Photo'>";
                 }
               
                 if($background_mid == ""){
-                    echo "<img class=dummy src='images/1.jpg' width='250' height='250' alt='Photo'>";
+                    echo "<img class=dummy src='images/graph.png' width='250' height='250' alt='Photo'>";
                 }
                 else {
                     echo "<img class=ppp src='$background_mid' width='250' height='250' alt='Photo'>";
                 }
                 
                 if($background_right == ""){
-                    echo "<img class=dummy src='images/1.jpg' width='250' height='250' alt='Photo'>";
+                    echo "<img class=dummy src='images/graph.png' width='250' height='250' alt='Photo'>";
                 }
                 else {
                     echo "<img class=ppp src='$background_right' width='250' height='250' alt='Photo'>";
@@ -180,7 +180,7 @@
                         <th class="other">Category</th>
                         <th class="other">School Name</th>
                         <th class="other">Address</th>
-                        <th class="other">Graduation</th>
+                        <th class="other">Year Graduated</th>
                     </tr>
                     <tr>
                         <td class="other">High School</td>
